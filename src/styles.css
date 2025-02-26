@@ -1,0 +1,5 @@
+@import "tailwindcss";
+
+@theme {
+  --color-mint-500: oklch(0.634 0.298 318.253);
+}
