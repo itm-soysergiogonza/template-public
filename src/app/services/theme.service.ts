@@ -1,16 +1,17 @@
 import { Injectable } from '@angular/core';
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: 'root',
 })
 export class ThemeService {
-  constructor() { }
+  constructor() {}
 
   initializeTheme() {
     document.documentElement.classList.toggle(
-      "dark",
-      localStorage['theme'] === "dark" ||
-      (!("theme" in localStorage) && window.matchMedia("(prefers-color-scheme: dark)").matches)
+      'dark',
+      localStorage['theme'] === 'dark' ||
+        (!('theme' in localStorage) &&
+          window.matchMedia('(prefers-color-scheme: dark)').matches),
     );
   }
 
