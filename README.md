@@ -1,61 +1,34 @@
-# AngularTailwind
+# Manual de la Plantilla Pública ITM [<img src="https://i.imgur.com/Rt1kaCn.png" alt="ITM" height="20px" />](https://www.itm.edu.co/)
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.1.6.
+## Descripción General
+Esta plantilla está diseñada para proporcionar una base sólida para proyectos públicos web del ITM, integrando un sistema de diseño moderno y funcionalidades comunes como el cambio de tema (modo claro/oscuro) y algunas otras funciones visuales.
 
-## Development server
+## Funcionalidades
+### Cambio de Tema
+- La plantilla incluye un servicio `ThemeService` que maneja el cambio entre modo claro y oscuro.
+- El botón en el header permite alternar entre los temas.
 
-To start a local development server, run:
+## Instalación y Uso
+1. Clona el repositorio si tienes los permisos necesarios:
+   ```bash
+   git clone https://github.com/itm-soysergiogonza/template
+   ```
+2. Navega al directorio del proyecto:
+   ```bash
+   cd template
+   ```
+3. Instala las dependencias:
+   ```bash
+   npm install
+   ```
+4. Ejecuta la aplicación:
+   ```bash
+   ng serve
+   ```
+5. Abre tu navegador y visita `http://localhost:4200`.
 
-```bash
-ng serve
-```
+## Contribución
+Si deseas contribuir a esta plantilla, por favor, abre un issue o envía un pull request.
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
-
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
-# angular-tailwind
-# template
+## Licencia
+Esta plantilla está bajo la licencia MIT. Ver el archivo [LICENSE](https://github.com/itm-soysergiogonza/template/blob/main/LICENSE.txt) para más detalles.
